@@ -22,7 +22,7 @@ else
     app.UseStaticFiles();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
