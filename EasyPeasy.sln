@@ -3,12 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A598928D-C6A0-4691-B94C-52F4DBBE63C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5520A729-F6B8-427A-BAD8-E1A05B616498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPeasy.WebApi", "backend\src\EasyPeasy.WebApi\EasyPeasy.WebApi.csproj", "{CD15C707-EE5C-48A8-8218-666E56CEFBC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD15C707-EE5C-48A8-8218-666E56CEFBC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD15C707-EE5C-48A8-8218-666E56CEFBC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD15C707-EE5C-48A8-8218-666E56CEFBC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD15C707-EE5C-48A8-8218-666E56CEFBC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD15C707-EE5C-48A8-8218-666E56CEFBC1} = {A598928D-C6A0-4691-B94C-52F4DBBE63C4}
 	EndGlobalSection
 EndGlobal
